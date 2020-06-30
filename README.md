@@ -24,6 +24,9 @@ The persisted rules in the database should look something like the following, wi
 | C            | payload is not null                            |
 | B            | payload->'query_type'->>'title' == 'SALE MADE' |
 
+- Ingest controller implementation in: `src/app/Http/Controllers/IngestController.php`
+- Ingest controller tests in: `src/tests/Feature/IngestTest.php`
+
 ## Tests
 
 Run the test suite with:
